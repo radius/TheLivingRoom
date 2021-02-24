@@ -102,7 +102,7 @@ function addCube(scene) {
 
 function main() {
     const canvas = document.querySelector('#c');
-    const fov = 100;
+    const fov = 80;
     const aspect = window.innerWidth / window.innerHeight; // the canvas default
     const near = 1;
     const far = 100;
