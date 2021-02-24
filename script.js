@@ -111,7 +111,7 @@ function main() {
     camera.position.set(0, 0, 50);
 
     // const cube = addCube(scene);
-    setupGui(camera);
+    // setupGui(camera);
     const controls = setupControls(camera, canvas);
     animate(canvas, scene, camera);
 }
